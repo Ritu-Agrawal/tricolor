@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.tricolor{
+	width:400px;
+    height:100px;
+    background-color:orange;
+    position:relative;
+}
+.tricolor::before{
+	content:"";
+    background-color:white;
+    position:absolute;
+   top:100%;
+   height:100;
+   width:100%;
+}a
+.tricolor::after{
+	content:"";
+    background-color:green; 
+    position:absolute;
+   top:200%;
+   left:0;
+   height:100%;
+   width:100%;
+}
+</style>
+</head>
+<body>
+
+<div class="tricolor"></div>
+</body>
+</html>
